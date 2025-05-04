@@ -1,6 +1,7 @@
 run_test:
   before_script:
     - echo "init test"
+    - grep -Fq "App v. 1.0" index.html
   script:
    - echo "init test"
   after_script:
