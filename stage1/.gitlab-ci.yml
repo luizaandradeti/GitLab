@@ -1,0 +1,16 @@
+run_test:
+  before_script:
+    - echo "init test"
+  script:
+   - echo "init test"
+  after_script:
+    - echo "init test"
+    
+create-docker-image:
+  script:
+    - echo "creating docker"
+
+push-docker-images:
+  script:
+    - echo "upload docker"
+
